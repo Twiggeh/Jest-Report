@@ -1,5 +1,5 @@
-import addTwo from "index.js";
+import { addTwo } from './index.js';
 
-it("Adds two", () => {
-  addTwo(3).equal(5);
+test('Adds two', () => {
+	expect(addTwo(3)).toBe(5);
 });

@@ -1,18 +1,22 @@
 {
-  "name": "vanilla",
-  "version": "1.0.0",
-  "description": "JavaScript example starter project",
-  "main": "index.html",
-  "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html",
-    "test": "jest"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "@babel/core": "7.2.0",
-    "parcel-bundler": "^1.6.1",
-    "jest": "26.4.2"
-  },
-  "keywords": ["javascript", "starter"]
+	"name": "vanilla",
+	"version": "1.0.0",
+	"description": "JavaScript example starter project",
+	"main": "index.html",
+	"scripts": {
+		"start": "parcel index.html --open",
+		"build": "parcel build index.html",
+		"test": "node --experimental-vm-modules '/run/media/twiggeh/Storage/projects/Webdev/Work/SC2 Replay Bot/node_modules/.bin/jest'"
+	},
+	"dependencies": {
+		"discord.js": "^12.3.1"
+	},
+	"devDependencies": {
+		"jest": "26.4.2"
+	},
+	"type": "module",
+	"keywords": [
+		"javascript",
+		"starter"
+	]
 }
